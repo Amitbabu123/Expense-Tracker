@@ -1,0 +1,43 @@
+.detail {
+  width: 60%; /* Set width to 70% */
+  height: 280.3px; /* Adjusted height */
+  margin-top: 10px; /* Add margin top */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  float: left; /* Float the element to the left */
+}
+
+.expense {
+  width: 30%; /* Set width to 30% */
+  height: 280.3px; /* Adjusted height */
+  margin-top: 10px; /* Add margin top */
+  margin-left: 10px; /* Add margin left */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  float: left; /* Float the element to the left */
+}
+
+.headings1 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.headings1 h3 {
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  width: calc(70% - 10px); /* Adjusted width for Recent Transactions */
+  height: 60px; /* Set height */
+  margin-top: 10px; /* Adjusted margin-top */
+  color: rgba(255, 255, 255, 1);
+}
+
+.headings1 h3:nth-child(2) {
+  width: calc(30% - 10px); /* Adjusted width for Top Expenses */
+}

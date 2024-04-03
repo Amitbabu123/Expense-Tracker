@@ -1,0 +1,11 @@
+.hero{
+    width: 1211px;
+    height: 692px;
+    background-color: #9B9B9B;
+    margin-top: 12px;
+    margin-left: 24px;
+    border:1px solid #9B9B9B;
+}
+.boxs{
+    display: block;
+}

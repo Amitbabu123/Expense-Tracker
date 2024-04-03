@@ -1,0 +1,26 @@
+.layout {
+    width: 1256px;
+    height: 781px;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-color: #9B9B9B;
+    border-radius: 3px;
+    background: #3B3B3B;
+  }
+  .logo {
+    width: 251px;
+    height: 37px;
+    margin-top: 12px;
+    margin-left: 20px;
+    gap: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.77px;
+    text-align: left;
+    color:#FFFFFF;
+    
+  }
+  
+  
+  
+  

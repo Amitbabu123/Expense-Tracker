@@ -1,0 +1,265 @@
+.cart {
+    position: relative;
+    width: 100%; /* Change width to 100% for responsiveness */
+    max-width: 1211px; /* Add max-width to limit width on larger screens */
+    height: auto; /* Change height to auto for responsiveness */
+    margin: 0 auto; /* Center the cart horizontally */
+    border-radius: 10px;
+    background-color: #626262;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.cart_main {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+
+.cart1,
+.cart2 {
+    width: calc(50% - 10px); /* Set width to 50% with space between items */
+    max-width: 355.5px; /* Add max-width for smaller devices */
+    height: auto; /* Change height to auto for responsiveness */
+    margin-bottom: 20px; /* Add margin between cart items */
+    border-radius: 15px;
+    background-color: #9B9B9B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.cart2 {
+    margin-left: 20px; /* Add margin-left for spacing between cart items */
+}
+
+.head {
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34.47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.head span {
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34.47px;
+    text-align: center;
+    color: #89E148;
+}
+
+.btn {
+    width: 167.65px;
+    height: 38px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 38px; /* Change line-height to match button height for vertical alignment */
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn1 {
+    width: 167.65px;
+    height: 38px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 38px; /* Change line-height to match button height for vertical alignment */
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+
+}
+.alertBar {
+    position: fixed;
+    width: 502px; /* Adjusted width */
+    height: auto; /* Auto height */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the alert bar */
+    background-color: #c0b7b7;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .alertBar h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Increased margin bottom */
+  }
+  
+  .alertBar input {
+    width: calc(100% - 350px); /* Adjusted width */
+    padding: 10px;
+    margin-bottom: 20px; /* Increased margin bottom */
+    border-radius: 10px; /* Adjusted border radius */
+    border: 1px solid #ccc; /* Added border */
+  }
+  
+  
+  .alertBar button {
+    width: 120px; /* Adjusted width */
+    padding: 10px; /* Adjusted padding */
+    margin: 0 5px; /* Added margin */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Adjusted border radius */
+  }
+  
+  .addBtn {
+    background-color: rgba(244, 187, 74, 1);
+    color: white;
+  }
+  
+  .cancelBtn {
+    background-color: rgba(227, 227, 227, 0.59);
+    font-size: large;
+    color: white;
+  }
+  /* Add this CSS to your existing Card.css file */
+.alertBar select {
+    width: calc(100% - 325px); /* Adjusted width */
+    padding: 10px;
+    margin-bottom: 20px; /* Increased margin bottom */
+    border-radius: 10px; /* Adjusted border radius */
+    border: 1px solid #ccc; /* Added border */
+    appearance: none; /* Remove default arrow */
+    background-color: #fff; /* Set background color */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Add custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 24px;
+  }
+  
+  .alertBar select:focus {
+    outline: none; /* Remove focus outline */
+    border-color: #555; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.5); /* Add shadow on focus */
+  }
+  .expenses {
+    margin-top: 20px;
+  }
+  
+  /* Card.css */
+
+/* Card.css */
+
+.expense {
+    width: 60%;
+    background-color: #fff;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .expense-details {
+    /* display: flex; */
+    align-items: center;
+  }
+  
+  .expense-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .expense-actions button:first-child {
+    margin-right: 0; /* Reset margin-right for the first button */
+  }
+  
+  .price {
+    margin-left: 400px; /* Shift price to the right */
+    margin-top: 200px;
+  }
+  .pie-chart-container {
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .top-expenses-container {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-expenses-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .pagination {
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 40vh;
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  
+  
+  
+  
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .cart_main {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .cart1,
+    .cart2 {
+        width: 100%; /* Set width to 100% on smaller screens */
+        margin-left: 0; /* Reset margin-left */
+        margin-right: 0; /* Reset margin-right */
+    }
+
+    .cart2 {
+        margin-left: 0; /* Reset margin-left for cart2 */
+    }
+}

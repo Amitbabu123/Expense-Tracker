@@ -1,0 +1,25 @@
+.circle {
+  display: flex;
+}
+
+.r, .y, .b {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.r {
+  margin-left: 12px;
+  background-color: #CC2323;
+}
+
+.y {
+  margin-left: 20px;
+  background-color: #F4BB4A;
+}
+
+.b {
+  margin-left: 28px;
+  background-color: #48A14D;
+}
